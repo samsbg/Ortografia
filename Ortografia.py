@@ -1,6 +1,4 @@
 #Autor: Samantha Bautista
-#Matricula: A01284462
-#Campus: Monterrey
 #Fecha: 28 de septiembre de 2020
 #Actividad: Proyecto final PISA: ortografia
 
