@@ -47,10 +47,8 @@ def segundaPagina(b, listaCorrecta, listaIncorrecta):
 
     def creacionDeBotones():
 
-        intPalabra = randint(0, (len(listaCorrecta)-1)/2)
+        intPalabra = randint(0, (len(listaCorrecta)-1)//2)
         intPosicion = randint(0, 1)
-
-        #Ver index out of bounds...
 
         if (intPosicion == 0):
             opcionPalabra1 = listaCorrecta[intPalabra*2+1]
