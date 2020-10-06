@@ -158,6 +158,7 @@ def primeraPagina():
 
     def regresar():
         print("Pagina principal")
+        ort.destroy()
 
     regreso.grid(column=0, row=0, sticky="NSWE")
     regreso.configure(command=regresar)
